@@ -5,9 +5,8 @@ import (
 	"time"
 )
 
-const someConst = "program run on linux"
-
 func main() {
+	//Задание 3
 	fmt.Println(someConst)
 }
 
