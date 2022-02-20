@@ -2,7 +2,7 @@
 FROM golang:1.17-alpine
 
 # Create a directory for the app
-RUN mkdir /app
+RUN mkdir -p /app
 
 # Copy all files from the current directory to the app directory
 COPY . /app
@@ -15,4 +15,4 @@ WORKDIR /app
 RUN go build
 
 # Run the server executable
-CMD [ "/app/app" ]
+CMD [ "./review" ]
