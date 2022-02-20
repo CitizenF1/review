@@ -1,6 +1,7 @@
 ### Review
 
-##Команда компиляции 
+#Команда компиляции 
+
 # go build -tags [your os tag] 
 
 ## Tasgs 
